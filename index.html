@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BMI CALCULATOR</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.css'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="../img/ico.png">
+</head>
+
+<body>
+    <!--make change view to full page  -->
+    <div id="main">
+        <div class="sisi cal">
+            <div class="form">
+                <div class="isi">
+                    <div class="pageHeader">
+                        BMI Calculator
+                    </div>
+                    <div id="form-IP">
+                        <input type="text" class="borderLine" id="berat-inp" placeholder="Body Weight in KG">
+                        <p class="help abu berat-help">Body Weight Eg : 65</p>
+                        
+                        <input type="text" class="borderLine" id="tinggi-inp" placeholder="Body Height in CM">
+                        <p class="help abu tinggi-help">Body Height Eg : 175</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="tombol">
+                <div id="kirim">CALCULATION</div>
+            </div>
+        </div>
+        <div class="sisi hasil addMargin">
+            <div id="konten">
+                <div class="isi">
+                    <div class="pageHeader">
+                        Result
+                        <span id="kanan">&#xd7;</span>
+                    </div>
+                    <div id="tag">
+                        <div id="judul" class="hasilJudul">
+                            Berat Badan
+                        </div>
+                        <div id="berat-bdn" class="spasi hasilJudul">
+                        </div>
+                    </div>
+                    <div id="tag">
+                        <div id="judul" class="hasilJudul">
+                            Tinggi Badan
+                        </div>
+                        <div id="tinggi-bdn" class="spasi hasilJudul">
+                        </div>
+                    </div>
+                    <div id="tag">
+                        <div id="judul" class="hasilJudul">
+                            BMI
+                        </div>
+                        <div id="bmi" class="spasi hasilJudul">
+                        </div>
+                    </div>
+                    <div id="tag">
+                        <div id="judul" class="hasilJudul">
+                            Kategori
+                        </div>
+                        <div id="kategori" class="spasi hasilJudul">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="copyright">
+                <div class="copy">
+                    Made with <span class="red">&#x2764;</span> by Sikkola
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
